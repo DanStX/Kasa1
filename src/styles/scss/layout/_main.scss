@@ -1,0 +1,17 @@
+.main {
+    padding-bottom: 10rem;
+
+    @include respond(phone2) {
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            text-align: left;  
+        }
+    }
+
+    @include respond(desktop) {
+        ul{
+            padding-bottom: 5rem;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+//You can change the name in this file
+
+@import 
+    './abstracts/functions',
+    './abstracts/mixins',
+    './abstracts/variables';
+
+
+@import 
+    './vendors/normalize';
+
+@import 
+    './base/reset',
+    './base/typography',
+    './base/base';
+
+@import 
+    './layout/header',
+    './layout/main',
+    './layout/footer';
+
+@import 
+    './components/card',
+    './components/navigation',
+    './components/collapse';
+@import 
+    // './pages/home',
+    './pages/app',
+    './pages/home';
+    
+// @import 
+//     // './scss/Themes/darktheme',
+//     // './scss/Themes/darktheme',
+//     './scss/Themes/darktheme';
+
+@import './shame';
