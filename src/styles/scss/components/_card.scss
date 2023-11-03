@@ -12,7 +12,8 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 80%;
+        height: 100%;
+        
         
         &-img {
             position: absolute;
@@ -20,21 +21,21 @@
             left: 0;
             width: 100%;
             height: 100%;
-            border-radius: 2rem 2rem 0 0 ;
+            border-radius: 2rem  ;
         }
         
-        &-new {
-            position: absolute;
-            top: 1.5rem;
-            border-radius: .5rem;
-            right: 1rem;
-            padding: 0.5rem 1rem;
-            z-index: 2;
-            background-color: $color-second;
-            color: $color-quatre;
-            font-weight: $fw-bold;
-            font-size: 0.8rem;
-        }
+        // &-new {
+        //     position: absolute;
+        //     top: 1.5rem;
+        //     border-radius: .5rem;
+        //     right: 1rem;
+        //     padding: 0.5rem 1rem;
+        //     z-index: 2;
+        //     background-color: $color-second;
+        //     color: $color-quatre;
+        //     font-weight: $fw-bold;
+        //     font-size: 0.8rem;
+        // }
     }
 
     &__info {

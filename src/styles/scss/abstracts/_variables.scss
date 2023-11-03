@@ -59,7 +59,7 @@ $fs-xlarge: 2rem;
 // Responsive 
 $res: calc(0.01 * 10vmin);
 $textResponsive: calc(64 * $res);
-$clamp: clamp(35px, 5vw, 70px);
+$clamp: clamp(24rem, 10vw, 4rem);
 
 // Margin
 $M-small: 0.5rem;
